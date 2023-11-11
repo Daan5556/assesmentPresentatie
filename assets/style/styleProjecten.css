@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container img{
+    height: 400px;
+    position: relative;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.container{
+    gap: 30px;
+    text-align: center;
+}
+.container2{
+    gap: 100px;
+    display: flex;
+}

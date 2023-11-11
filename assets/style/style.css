@@ -86,3 +86,11 @@ nav.is-active{
 .navItems:hover{
     background-color: #ec6753;
 }
+
+h1{
+    font-family: "nunito", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    user-select: none;
+}

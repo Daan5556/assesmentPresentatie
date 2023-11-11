@@ -27,7 +27,7 @@ body{
 }
 
 #vistaLogo{
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     user-select: none;
 }
 
