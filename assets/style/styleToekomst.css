@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.container img{
+    width: 210px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.popUp{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}

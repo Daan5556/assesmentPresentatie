@@ -87,10 +87,21 @@ nav.is-active{
     background-color: #ec6753;
 }
 
-h1{
+h1, h2{
     font-family: "nunito", sans-serif;
     font-weight: 600;
-    font-style: normal;
+    font-style: normal;   
     color: #fff;
     user-select: none;
+}
+
+.popUp{
+    opacity: 50%;
+    transition: 1s;
+}
+
+.popUp:hover{
+    opacity: 100%;
+    transform: translateY(-3rem);
+    transition: 200ms;
 }
